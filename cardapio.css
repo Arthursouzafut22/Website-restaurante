@@ -1,0 +1,199 @@
+#Cardapio {
+    box-sizing: border-box;
+    margin-top: 50px;
+    max-width: 100%;
+    text-align: center;
+   
+}
+
+.details-card {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #FEA116;
+    display:inline-block;
+    position: relative;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    
+    
+
+    
+}
+
+.details-card::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #FEA116;
+    position: absolute;
+    left: -60px;
+    bottom: 15px;
+    
+}
+
+.details-card::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #FEA116;
+    position: absolute;
+    right: -60px;
+    bottom: 15px;
+    
+}
+
+.Popular {
+    font-family: 'Nunito';
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    right: -0px;
+
+}
+
+.menu-cardapio {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+
+#img-cardapio{
+    display:block;
+    max-width: 50px;
+    padding: 10px;
+}
+
+
+.text-card :nth-child(1) {
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    margin: 0px;
+    color: #66657E;
+}
+
+.text-card :nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    margin: 0px;
+
+}
+
+.comidas-food {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 100%;
+   
+}
+
+.food-opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 60px; 
+
+}
+
+.menu-food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    flex: 1;
+    margin: 20px;
+    position: relative;
+}
+
+.menu-food > img {
+    max-width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0px;
+}
+
+.menu-food ul :nth-child(1) {
+    font-size: 22px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.menu-food ul :nth-child(2) {
+    color: #66657E;
+    
+}
+
+.menu-food > ul {
+    padding:0 ;
+    margin-left: 17px;
+}
+
+.preco {
+    font-size: 22px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    display: block;
+    position: absolute;
+    top: -0px;
+    right: -40px;
+    margin-top: 10px;
+    color: #FEA116;
+    
+}
+
+@media (max-width:600px) {
+
+    .preco {
+        right: -2px;
+        top: -0px;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .food-opcoes {
+        gap: 10px;
+    }
+    .Popular {
+        font-size: 30px;
+    }
+
+    .menu-items {
+        margin: 0;
+        padding: 3px;
+    }
+    .menu-food {
+        margin: 5px;
+    }
+
+    .menu-food ul :nth-child(1) {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .menu-food ul :nth-child(2) {
+        font-size: 14px;
+    }
+       
+
+}

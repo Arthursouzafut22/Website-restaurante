@@ -1,0 +1,143 @@
+#img-churrasco {
+    max-width: 600px;
+    animation: rotation normal 50s linear infinite;
+}
+
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.po {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.Churrasco-2 {
+    animation-name: animar;
+    animation-duration: 0.80s;
+}
+
+@keyframes animar {
+    from {
+        opacity: 0;
+        transform: translate3D(-400px, 0px, 0px);
+    }
+    to {
+        opacity: 1;
+        transform: translate3D(0px, 0px, 0px);
+
+    }
+}
+
+#titulo {
+    font-size: 5rem;
+    display: block;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    word-spacing: 0px;
+}
+
+.descricao {
+    color: white;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    -webkit-text-size-adjust: 100%;
+    text-align: left;
+    max-width: 550px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.btn-reserva {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #FEA116;
+    padding: 0.9375rem 1.875rem;
+    font-family: 'Nunito';
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn-mobi {
+    margin-top: 17px;
+}
+
+@media (min-width:600px) and (max-width:992px) {
+    #titulo {
+     font-size: 2.8125rem;
+     text-align: center;
+     margin-top: 50px;
+    }
+
+    .descricao {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .btn-reserva {
+        margin: 0 auto;
+        padding: 0.75rem 1.875rem;
+        
+    }
+
+    .btn-mobi {
+        margin-top: 15px;
+    }
+
+    #img-churrasco {
+        max-width: 400px;
+        margin-top: 35px;
+        width: 100%;
+        
+    }
+
+    .Churrasco-2 {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+}
+
+@media (min-width:992px) and (max-width:1250px) {
+    #titulo {
+        font-size: 3.125rem;
+    }
+    .descricao {
+        font-size: 1rem;
+    }
+    #img-churrasco {
+        max-width: 400px;
+        display: inline-block;
+    }
+    .Churrasco-2 {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .po {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+

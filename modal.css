@@ -1,0 +1,78 @@
+
+.modal-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: none;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    align-items: center;
+}
+
+
+.modal {
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.24);
+    padding: 0.9375rem 0 0.9375rem 0;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal :nth-child(2) {
+    font-family: 'Nunito', sans-serif;
+    color: #E21B1B;
+    font-size: 1.5625rem;
+}
+
+.modal :nth-child(3) {
+    margin-top: 0px;
+    font-size: 1.125rem;
+}
+
+.fechar {
+    color: white;
+    text-decoration: none;
+    background-color: #E21B1B;
+    text-transform: uppercase;
+    padding: 1.25rem 1.875rem 1.25rem 1.875rem;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.img-modal {
+    max-width: 100px;
+    width: 100%;
+}
+
+[data-modal="container"].active {
+    display: flex;
+    animation: mode .3s forwards;
+}
+
+
+
+@keyframes mode {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -40px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+@media (max-width:763px) {
+    .modal {
+        width: 300px;
+    }
+}

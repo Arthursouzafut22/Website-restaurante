@@ -1,0 +1,287 @@
+
+#contato {
+    background-color: #0F172B;
+    padding: 3rem 0.75rem 0 0.75rem;
+    margin: 55px 0px 0px 0px;
+    overflow: hidden;
+   
+}
+
+.contato-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 1140px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 48px 0px 0px 0px;
+    
+}
+
+.contatos-item {
+    padding: 0  0 1.5rem;
+    position: relative;
+    max-width: 100%;
+    width: 290px;
+    position: relative;
+}
+
+.contatos-item ul > li {
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+
+.contatos-item > h1 {
+    font-family: 'Pacifico', cursive;
+    color: #FEA116;
+    font-weight: 400;
+    margin: 0px;
+    text-align: left;
+    font-size: 27px;
+}
+
+.titulo-contatos::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    position: absolute;
+    right: 130px;
+    top: 30px;
+}
+
+.titulo-contatos2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    position: absolute;
+    right: 130px;
+    top: 22px;
+}
+
+.titulo-contatos3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    position: absolute;
+    right: 120px;
+    top: 24px;
+}
+
+.titulo-contatos4::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    position: absolute;
+    right: 7px;
+    top: 24px;
+}
+
+.contatos-item > p {
+    color: #F1F8FF;
+    font-size: 1.125rem;
+    text-align: left;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+.contatos-item > input {
+    padding: 1.3rem 3rem 1rem 1.5rem;
+    font-size: 1.0625rem;
+    margin-top: 10px;
+    border: 1px solid #FEA116;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-contatos {
+    background-color: #FEA116;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 8px 0 0;
+    font-size: 0.9375rem;
+    height: 40px;
+    vertical-align: middle;
+    position: absolute;
+    top: 132px;
+    bottom: 8px;
+    right: 0px;
+    left: 149.716px;
+}
+
+
+.contatos-item li > img {
+    max-width: 18px;  
+    margin-right: 12px;
+}
+
+.li-size :nth-child(odd) {
+    font-size: 1.375rem;
+    font-family: 'Nunito';
+    font-weight: 700;
+    margin-bottom: 10px ;
+}
+
+.contatos-horas {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    
+}
+
+.contatos-info {
+    font-size: 1.125rem;
+}
+
+.contatos-empresa {
+    cursor: pointer;
+}
+
+.contatos-empresa > ul li {
+    font-family: 'Nunito';
+    margin-bottom: 0px;
+   
+}
+
+.contatos-empresa li:hover {
+    color: #FEA116;
+    transition: .3s;
+    
+    
+}
+
+.flex-contatos {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+.rede-social {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    justify-content: start;
+}
+
+.rede-social > img {
+    width: 35px;
+    
+}
+
+
+.contatos-item li {
+    color: #F1F8FF;
+}
+
+.contatos-item2 {
+    display: flex;
+    width: 1140px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 1.5625rem 0 1.5625rem 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.informação-contatos {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.0625rem;
+    justify-content: end;
+    max-width: 100%;
+    width: 570px;
+    align-items: center;
+    gap: 24px;
+}
+
+.informação-contatos :nth-child(-n+3){
+    border-right: 1px solid #66657E;
+    margin: 0px 9px 0px 0px ;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+    padding-right: 1.5625rem ;
+  
+}
+
+.contato-paragrafo {
+    width: 570px;
+    display: block;
+    justify-self: start;
+    /* min-width: auto; */
+    max-width: 100%;
+    padding: 0.5rem 0.5rem ;
+}
+
+.contato-paragrafo a {
+    color: #F1F8FF;
+    font-size: 17px;
+}
+
+
+/* Responsivo Contatos */
+
+@media (max-width:767px) {
+    .contato-2 {
+        justify-content: start;
+        padding-left: 0.9375rem;
+    }
+    .contatos-item {
+        margin-bottom: 10px;
+    }
+    .contato-paragrafo > p {
+        font-size: 0.875rem;
+    }
+    .unico-paragrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+    .informação-contatos {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width:770px) and (max-width:1000px) {
+    .contatos-item2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .contato-paragrafo {
+        text-align: left;
+    }
+    .unico-paragrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .informação-contatos {
+        text-align: center;
+        justify-content: center;
+}
+}
+

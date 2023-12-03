@@ -1,0 +1,223 @@
+
+#sobre {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0 30px;
+   
+    
+}
+
+#sobre-2 {
+    justify-self: start;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+   
+}
+
+#sobre-2 > p {
+    text-align: left;
+    font-size: 18px !important;
+    line-height: 1.5;
+}
+
+
+
+#anime2 {
+    font-weight: 800;
+}
+
+
+
+.sobre-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    margin: 14px 0px;
+    gap: 30px;
+}
+
+strong {
+    color: black;
+    font-size: 1.125rem;
+}
+
+.sobre-flex p {
+    font-family: 'Nunito';
+    text-align: left;
+   
+}
+
+.sobre-flex span {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Nunito';
+    color: #FEA116;
+    border-left: 4px solid #FEA116;
+    padding: 0px 16px 0px 16px;
+    
+}
+.experiecia-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    align-items: center;
+}
+
+.btn-lara {
+    text-transform: uppercase;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+  
+  .img1 {
+   display: inline;
+   max-width: 100%;
+   width: 300px;
+   animation-delay: 0.1s;
+
+}
+  
+  .img2 {
+    display: inline;
+    align-self: end;
+    max-width: 100%;
+    width: 200px;
+    animation-delay: 0.3s;
+    
+   }
+   
+  
+.img3 {
+    display: inline;
+    justify-self: end;
+    align-self: start;
+    max-width: 100%;
+    width: 200px;
+    animation-delay:  0.5s;
+}
+
+.img4 {
+    display: inline;
+    width: 300px;
+    max-width: 100%;
+    animation-delay: 0.7s;
+    
+}
+/* 
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+       
+
+    }
+} */
+
+
+@keyframes scall {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+
+[data-anime='card1'] {
+    animation-delay: 0.1s;
+    /* animation-duration: 0.1s; */
+   animation-name: scall !important;
+   /* visibility: visible; */
+    transition: 0.1s;
+}
+
+[data-anime= 'card2'] {
+    animation-delay: 0.3s;
+    animation-name: scall !important;
+    /* visibility: visible; */
+    transition: 0.3s;
+}  
+
+[data-anime= 'card3'] {
+    animation-delay:  0.5s;
+    animation-name: scall !important;
+    transition: 0.5s;
+    /* visibility: visible; */
+}
+
+[data-anime= 'card4'] {
+    animation-delay: 0.7s;
+    transition: 0.7s;
+    animation-name: scall !important;
+    /* visibility: visible; */
+}
+
+#sobre-2 h1 {
+    color: #FEA116;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 1.875rem; 
+}
+
+#sobre-2 h1::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    display: block;
+    background-color:  #FEA116;
+    position: absolute;
+    border-radius: 1px;  
+}
+
+#sobre-2 p {
+    font-size: 1rem;
+    line-height: 24px;
+    max-width: 600px;
+    word-spacing: 0px;
+    color: #666565; 
+}
+
+#sobre-2 h2 {
+    font-size: 2.8125rem;
+    font-family: 'Nunito';
+    font-weight: 800;
+    margin-top: 0px; 
+}
+
+
+@media (max-width:600px) {
+    #sobre-2 > p {
+        font-size: 15px !important;
+    }
+    #sobre-2 > h2 {
+        font-size: 30px;
+    }
+
+    #anime2 {
+        font-size: 40px;
+    }
+    .sobre-flex {
+        margin: 5px 0px;
+    }
+}

@@ -1,0 +1,124 @@
+
+#pagina {
+    max-width: 100%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pagina-2 {
+    position: relative;
+}
+
+
+.membros-times {
+    text-align: center;
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #FEA116;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 15px;
+   
+}
+
+
+
+/* .membros-times::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #FEA116;
+    position: absolute;
+    left: 580px;
+    bottom: 15px;
+}
+
+.membros-times::after {
+  content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    position: absolute;
+    right: 580px;
+    bottom: 15px;
+
+} */
+
+
+.master-chefe {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.master-chefe2 {
+    max-width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 7px rgba(150, 150, 150, 0.22);
+    
+    
+}
+    
+.master-chefe2 > img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.master-chefe2 > h1 {
+  font-family: 'Nunito', sans-serif;
+  
+  
+}
+
+.master-chefe2 > h1,p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.estrela {
+   display: flex;
+   justify-content: center;
+}
+
+
+.rating {
+    display: inline-block;
+    
+  }
+  
+  .rating input {
+    display: none;
+    text-align: center;
+   
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 35px;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: gold;
+    transition: color 0.3s;
+  }
+  

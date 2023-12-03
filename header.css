@@ -1,0 +1,219 @@
+
+ul li {
+list-style: none;
+
+}
+
+#header {
+padding: 0.3125rem 1.875rem;
+}
+
+.marca {
+display: flex;
+align-items: center;
+}
+
+.logo {
+text-decoration: none;
+color: #FEA116;
+font-size: 2.5rem;
+font-family: 'Nunito';
+font-weight: 800;
+}
+
+#garfo {
+
+color: #FEA116;
+height: 35px; 
+}
+
+.menu-flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+max-width: 100%;
+}
+
+#menu {
+display: flex;
+align-items: center;
+background-color:none;
+padding: 1.5rem;
+margin: 0;
+}
+
+.link-orange {
+color: #FEA116;
+display:block;
+}
+
+#menu li {
+display: inline;
+}
+
+#menu li a {
+background-color: none;
+color: white;
+font-weight: 500;
+text-decoration: none;
+padding: 15px;
+text-transform: uppercase;
+font-family: 'Nunito';
+}
+
+#menu li a:hover:not(#btn-mesa) {
+color: #FEA116;
+}
+
+#menu li.dropdow:hover .dropdow-content {
+display: block;
+}
+
+#menu li.dropdow {
+position: relative;
+display: inline-block;
+}
+
+#menu .dropdow-content {
+display: none;
+position: absolute;
+background-color: white;
+min-width: 160px;
+border-radius: 5px;
+z-index: 1000;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu .dropdow-content a {
+color: black;
+padding: 0.75rem 1rem;
+text-decoration: none;
+display: block;
+}
+
+#menu .dropdow-content a:hover {
+background-color: antiquewhite;
+}
+
+.icon-dropw {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#btn-mesa {
+background-color: #FEA116;
+display:block;
+border-radius: 5px;
+padding: 0.625rem 1.5625rem;
+border: none;
+font-family: 'Nunito';;
+}
+
+#btn-mesa:hover {
+color: white;
+}
+
+.btn-mobile {
+    display:none 
+}
+
+
+   /* RESPONSIVO ABAIXO... */
+
+
+@media (min-width: 600px) and (max-width:992px) {
+
+    #header {
+        background-color: #0F172B;
+        padding: 0.625rem;
+    }
+    .btn-mobile {
+        display: flex !important;
+        background-color: transparent;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: #0F172B;
+        height: 0px;
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #menu a {
+        display: block;
+        padding: 1rem 0; 
+        position: relative;
+        left: 22px;
+    
+    }
+    #nav.ativo #menu {
+        height: calc(100vh - 40px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #hamburgue {
+        border-top: 4px solid;
+        display: block;
+        width: 30px;
+        color: #93969F;
+    }
+    #hamburgue::after, #hamburgue::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin-top: 5px;
+        background: currentColor;
+        transition: .3s;
+        position: relative;
+       
+    }
+    #nav.ativo #hamburgue {
+       border-top-color: transparent;
+    }
+    #nav.ativo #hamburgue::before {
+        transform: rotate(135deg);
+
+    }
+    #nav.ativo #hamburgue::after {
+        transform: rotate(-135deg);
+        top: -8px;
+
+    }
+    .logo {
+        font-size: 30px;
+     }
+
+    #btn-mesa {
+        width: 50%;
+        margin-left: 15px;
+        display: inline-block;
+        text-align: center;
+     }
+}
+
+@media (min-width:992px) and (max-width:1250px) {
+    .menu-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .logo {
+            font-size: 1.875rem;
+        }
+}
+ 

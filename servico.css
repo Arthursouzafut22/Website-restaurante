@@ -1,0 +1,98 @@
+
+  /* SERVICOS ON-LINES */
+
+#Servico {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    max-width: 100%;
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+.servico-2 {
+    max-width: 250px;
+    padding:  2rem ;
+    align-self: center; 
+    box-shadow: 0px 0px 15px 7px rgba(150, 150, 150, 0.22);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.servico-2 :nth-child(2) {
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+.servico-2 :nth-child(3) {
+    color: #666565;
+    text-align:left;
+}
+
+
+
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime='0.1s'] {
+    /* transform: translate3d(-50px, 0, 0); */
+    transform:translate3d(0,100%,0);
+    transition: 0.1s;
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+
+[data-anime='0.3s'] {
+    transform:translate3d(0,100%,0);
+    animation-name: fadeInUp;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+[data-anime='0.5s'] {
+    transform:translate3d(0,100%,0);
+    animation-name: fadeInUp;
+    visibility: visible;
+    transition: 0.5s;
+
+}
+
+[data-anime='0.7s'] {
+    transform:translate3d(0,100%,0);
+    animation-name: fadeInUp;
+    visibility: visible;
+    transition: 0.7s;
+
+}
+   
+
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+/* 
+[data-anime='intro'] {
+    transform: translateX(-400%);
+    
+
+} */
+
+@keyframes fadeInUp {
+    0%{
+        opacity:0; 
+        transform:translate3d(0,100%,0)}
+
+        to {
+            opacity:1;
+            transform:none}
+        }
+
+
+
