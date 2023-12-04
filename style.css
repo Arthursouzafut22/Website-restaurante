@@ -8,11 +8,9 @@
  @import url(./depoimento.css);
  @import url(./contato.css);
  @import url(./modal.css);
+ @import url(./fontes.css);
  
- @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Nunito:wght@800&family=Pacifico&display=swap');
-
- @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Heebo:wght@300&family=Nunito:wght@800&family=Pacifico&display=swap');
-
+ 
 
 
 body {
@@ -79,13 +77,13 @@ body {
     #hamburgue {
         border-top: 4px solid;
         display: block;
-        width: 30px;
+        width: 35px;
         color: #93969F;
     }
     #hamburgue::after, #hamburgue::before {
         content: '';
         display: block;
-        width: 30px;
+        width: 35px;
         height: 4px;
         margin-top: 5px;
         background: currentColor;

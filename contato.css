@@ -202,26 +202,6 @@
     color: white;
 }
 
-.informação-contatos {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.0625rem;
-    justify-content: end;
-    max-width: 100%;
-    width: 570px;
-    align-items: center;
-    gap: 24px;
-}
-
-.informação-contatos :nth-child(-n+3){
-    border-right: 1px solid #66657E;
-    margin: 0px 9px 0px 0px ;
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: right;
-    padding-right: 1.5625rem ;
-  
-}
 
 .contato-paragrafo {
     width: 570px;
@@ -279,9 +259,7 @@
         align-items: center;
         gap: 5px;
     }
-    .informação-contatos {
-        text-align: center;
-        justify-content: center;
+   
 }
-}
+
 
