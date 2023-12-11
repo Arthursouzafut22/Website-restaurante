@@ -53,29 +53,37 @@
 
 }
 
+.intens-flex {
+    display: flex;
+    gap: 20px;
+}
+
 .menu-cardapio {
     display: flex;
     box-sizing: border-box;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px auto;
+    max-width: 1400px;
+    gap: 20px;
     
 }
 
 .menu-items {
     display: flex;
     align-items: center;
-    max-width: 100%;
-    padding: 20px;
     justify-content: center;
+    border-radius: 5px;
+    padding: 0.3125rem;
+    box-shadow: -3px 3px 35px -17px rgba(150, 150, 150, 0.24);
 }
-
 
 
 #img-cardapio{
     display:block;
     max-width: 50px;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 

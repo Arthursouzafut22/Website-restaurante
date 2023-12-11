@@ -18,7 +18,7 @@
         <header id="header">
             <div class="menu-flex">
                 <div class="marca">
-                <img src="garfo-e-faca.png" alt="garfo" id="garfo">
+                <img src="img/servicos/garfo-e-faca.png" alt="garfo" id="garfo">
                 <a href="#" class="logo">Restaurante</a>
                 </div>
                 <nav id="nav">
@@ -29,13 +29,15 @@
                         <li><a href="#Servico"><span class="link-orange">Servico</span></a></li>
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#Cardapio">Cardapio</a></li>
-                        <li class="dropdow"><a href="#pagi
-                            na" class="icon-dropw">página <img src="sinal-de-seta-para-baixo-para-navegar.png" alt="seta" style="max-width: 13px;"></a>
-                            <div class="dropdow-content">
-                                <a href="#reserva">Reserva</a>
-                                <a href="#">Nosso time</a>
-                                <a href="#">Depoimento</a>
-                            </div>
+                        <li class="dropdow" data-dropdown>
+                            <a href=""class="icon-dropw">página <img src="img/modal/sinal-de-seta-para-baixo-para-navegar.png" alt="seta" style="max-width: 13px;"></a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img src="reserva-on-line.png" alt="">Reserva</a></li>
+                                <li><a href="#"><img src="trabalhar.png" alt="">Nosso time</a></li>
+                                <li><a href="#"><img src="classificacoes.png" alt="">Depoimento</a></li>
+                            </ul>
+                            
                         </li>
                         <li><a href="#contato">Contato</a></li>
                         <li><a href="#" id="btn-mesa">reserve uma mesa</a></li>
@@ -53,7 +55,7 @@
                        <a href="#" class="btn-reserva btn-mobi" data-modal="abrir">RESERVE UMA MESA</a>
                     </div>
                     <div class="img-roda">
-                        <img src="hero.png" alt="img-churrasco" id="img-churrasco">
+                        <img src="img/churrasco/hero.png" alt="img-churrasco" id="img-churrasco">
                       </div>
                 </div>
             </div>
@@ -63,7 +65,7 @@
     <section id="Servico">
         <div class="servico-2" data-anime="0.1s">
             <div>
-                <img src="novo-usuario.png" alt="nv-usuario">
+                <img src="img/servicos/novo-usuario.png" alt="nv-usuario">
             </div>
             <h1>Mestres Chefs</h1>
             <p>Diam elitr kasd sed e elitr sed ipsum justo dolor sed clita amet diam</p>
@@ -71,7 +73,7 @@
 
         <div class="servico-2" data-anime="0.3s">
             <div>
-                <img src="garfo-e-faca.png" alt="faca">
+                <img src="img/servicos/garfo-e-faca.png" alt="faca">
             </div>
             <h1>Comida Gostosa</h1>
             <p>Diam elitr kasd sed e elitr sed ipsum justo dolor sed clita amet diam</p>
@@ -79,7 +81,7 @@
 
         <div class="servico-2" data-anime="0.5s">
             <div>
-                <img src="carrinhos-de-compras.png" alt="carrinho-online">
+                <img src="img/servicos/carrinhos-de-compras.png" alt="carrinho-online">
             </div>
             <h1>Pedido online</h1>
             <p>Diam elitr kasd sed e elitr sed ipsum justo dolor sed clita amet diam</p>
@@ -87,7 +89,7 @@
 
         <div class="servico-2" data-anime="0.7s">
             <div>
-                <img src="fones-de-ouvido.png" alt="fone-ouvido">
+                <img src="img/servicos/fones-de-ouvido.png" alt="fone-ouvido">
             </div>
             <h1>Serviço online </h1>
             <p>Diam elitr kasd sed e elitr sed ipsum justo dolor sed clita amet diam</p>
@@ -96,10 +98,10 @@
 
     <section id="sobre">
         <div id="grid">
-            <img src="about-1.jpg" alt="" class="img1" data-anime='card1'>
-            <img src="about-2.jpg" alt="" class="img2" data-anime="card2">
-            <img src="about-3.jpg" alt="" class="img3" data-anime="card3">
-            <img src="about-4.jpg" alt="" class="img4" data-anime="card4">
+            <img src="img/sobre/about-1.jpg" alt="" class="img1" data-anime='card1'>
+            <img src="img/sobre/about-2.jpg" alt="" class="img2" data-anime="card2">
+            <img src="img/sobre/about-3.jpg" alt="" class="img3" data-anime="card3">
+            <img src="img/sobre/about-4.jpg" alt="" class="img4" data-anime="card4">
         </div>
         <div id="sobre-2" class="numeros" data-anime="right">
            <h1>Sobre nós</h1>
@@ -121,27 +123,29 @@
     </section>
 
     <section id="Cardapio">
-        <h5 class="details-card"  data-anime="left">Cardápio</h5>
-        <h1 class="Popular"  data-anime="left">Itens mais populares</h1>
+        <h5 class="details-card">Cardápio</h5>
+        <h1 class="Popular">Itens mais populares</h1>
         <div class="menu-cardapio">
-            <div class="menu-items" data-anime="right">
-                <img src="xicara-de-cha.png" alt="xicara-cafe" id="img-cardapio">
-                <div class="text-card">
-                    <p>Popular</p>
-                    <p>Café da manhã</p></div>       
-               </div>
-    
-            
-            <div class="menu-items" data-anime="right">
-                  <img src="hamburguer.png" alt="hamburguer" id="img-cardapio">
+            <div class="menu-items">
+                    <img src="img/cardapio/xicara-de-cha.png" alt="xicara-cafe" id="img-cardapio">
+                    <div class="text-card">
+                        <p>Popular</p>
+                        <p>Café da manhã</p>      
+                   </div>
+            </div>
+        
+           
+            <div class="menu-items">
+                  <img src="img/cardapio/hamburguer.png" alt="hamburguer" id="img-cardapio">
                     <div class="text-card">
                         <p>Especial</p>
-                        <p>Lanchar</p
+                        <p>Lanchar</p>
                     </div>
             </div>
+        
 
-            <div class="menu-items" data-anime="right">
-                 <img src="garfo-e-faca.png" alt="garfo" id="img-cardapio">
+            <div class="menu-items">
+                 <img src="img/servicos/garfo-e-faca.png" alt="garfo" id="img-cardapio">
                     <div class="text-card">
                         <p>Amável</p>
                         <p>Jantar</p>
@@ -152,9 +156,9 @@
 
     <section class="comidas-food">
         <div class="food-opcoes">
-            <div class="menu-food2"  data-anime="left">
+            <div class="menu-food2">
             <div class="menu-food">
-                <img src="menu-1.jpg" alt="menu-1">
+                <img src="img/cardapio/menu-1.jpg" alt="menu-1">
                 <ul>
                     <li>Salada Frutas</li>
                     <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -164,7 +168,7 @@
                 
             </div>
             <div class="menu-food">
-                <img src="menu-2.jpg" alt="menu-1">
+                <img src="img/cardapio/menu-2.jpg" alt="menu-1">
                 <ul>
                     <li>Picanha Assada</li>
                     <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -172,7 +176,7 @@
                 </ul>
             </div>
             <div class="menu-food">
-                <img src="menu-3.jpg" alt="menu-1">
+                <img src="img/cardapio/menu-3.jpg" alt="menu-1">
                 <ul>
                     <li>Pizza Frango</li>
                     <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -181,7 +185,7 @@
                 
             </div>
             <div class="menu-food">
-                <img src="menu-4.jpg" alt="menu-1">
+                <img src="img/cardapio/menu-4.jpg" alt="menu-1">
                 <ul>
                     <li>Bife de Carne</li>
                     <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -193,7 +197,7 @@
 
             <div class="menu-food2"  data-anime="right">
                 <div class="menu-food">
-                    <img src="menu-5.jpg" alt="menu-1">
+                    <img src="img/cardapio/menu-5.jpg" alt="menu-1">
                     <ul>
                         <li>Sobremesa</li>
                         <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -201,7 +205,7 @@
                     </ul>
                 </div>
                 <div class="menu-food">
-                    <img src="menu-6.jpg" alt="menu-1">
+                    <img src="img/cardapio/menu-6.jpg" alt="menu-1">
                     <ul>
                         <li>Almoço Completo</li>
                         <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -209,7 +213,7 @@
                     </ul>
                 </div>
                 <div class="menu-food">
-                    <img src="menu-7.jpg" alt="menu-1">
+                    <img src="img/cardapio/menu-7.jpg" alt="menu-1">
                     <ul>
                         <li>Pizza Queijo</li>
                         <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -217,7 +221,7 @@
                     </ul>
                 </div>
                 <div class="menu-food">
-                    <img src="menu-8.jpg" alt="menu-1">
+                    <img src="img/cardapio/menu-8.jpg" alt="menu-1">
                     <ul>
                         <li>Bifo De Boi</li>
                         <li>Ipsum ipsum clita erat amet dolor justo diam</li>
@@ -231,7 +235,7 @@
     <section id="reserva">
         <div class="reserva-2">
         <div class="container-img">
-            <img src="video.jpg" alt="" class="img-reserva">
+            <img src="img/reserva/video.jpg" alt="" class="img-reserva">
         </div>
 
         <form action="" class="formulario">
@@ -252,7 +256,7 @@
             <h2 class="Popular">Nossos Master Chefs</h2>
             <div class="master-chefe">
                 <div class="master-chefe2" data-anime="0.1s">
-                    <img src="team-1.jpg" alt="" class="img33">
+                    <img src="img/chefes/team-1.jpg" alt="chef-1" class="img33">
                     <h1>Chef Matheus</h1>
                     <p>Designação</p>
                     <div class="estrela">
@@ -272,7 +276,7 @@
                       
                 </div>
                 <div class="master-chefe2" data-anime="0.3s">
-                    <img src="team-2.jpg" alt="">
+                    <img src="img/chefes/team-2.jpg" alt="chef-2">
                     <h1>Chef Lucas</h1>
                     <p>Designação</p>
                     <div class="estrela">
@@ -291,7 +295,7 @@
                           </div>
                 </div>
                 <div class="master-chefe2" data-anime="0.5s">
-                    <img src="team-3.jpg" alt="">
+                    <img src="img/chefes/team-3.jpg" alt="chef-3">
                     <h1>Chef Pedro</h1>
                     <p>Designação</p>
                     <div class="estrela">
@@ -310,7 +314,7 @@
                           </div>
                 </div>
                 <div class="master-chefe2" data-anime="0.7s">
-                    <img src="team-4.jpg" alt="">
+                    <img src="img/chefes/team-4.jpg" alt="chef-4">
                     <h1>Chef Raul</h1>
                     <p>Designação</p>
                     <div class="estrela">
@@ -342,10 +346,10 @@
             <div class="slide-list" data-slide="list">
                 <div class="slide-item" data-slide="item" data-index="0">
                     <div class="slide-content">
-                      <img src="aspas.png" alt="aspas">
+                      <img src="img/depoimento/aspas.png" alt="aspas">
                       <p>Dolor et eos labore, stet justo sed est sed. Disk sed sed dolor stet amém eimord eos labore diam.</p>
                       <div class="depointo-2">
-                          <img src="testimonial-1.jpg" alt="testemulha">
+                          <img src="img/depoimento/testimonial-1.jpg" alt="testemulha">
                           <ul>
                               <li>Nome Do Cliente</li>
                               <li>Profissão</li>
@@ -355,10 +359,10 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="1">
                     <div class="slide-content">
-                      <img src="aspas.png" alt="aspas">
+                      <img src="img/depoimento/aspas.png" alt="aspas">
                       <p>Dolor et eos labore, stet justo sed est sed. Disk sed sed dolor stet amém eimord eos labore diam.</p>
                       <div class="depointo-2">
-                          <img src="testimonial-2.jpg" alt="testemulha">
+                          <img src="img/depoimento/testimonial-2.jpg" alt="testemulha">
                           <ul>
                               <li>Nome Do Cliente</li>
                               <li>Profissão</li>
@@ -368,10 +372,10 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="2">
                     <div class="slide-content">
-                      <img src="aspas.png" alt="aspas">
+                      <img src="img/depoimento/aspas.png" alt="aspas">
                       <p>Dolor et eos labore, stet justo sed est sed. Disk sed sed dolor stet amém eimord eos labore diam.</p>
                       <div class="depointo-2">
-                          <img src="testimonial-3.jpg" alt="testemulha">
+                          <img src="img/depoimento/testimonial-3.jpg" alt="testemulha">
                           <ul>
                               <li>Nome Do Cliente</li>
                               <li>Profissão</li>
@@ -384,10 +388,10 @@
                 
                 <div class="slide-item" data-slide="item" data-index="7">
                     <div class="slide-content">
-                      <img src="aspas.png" alt="aspas">
+                      <img src="img/depoimento/aspas.png" alt="aspas">
                       <p>Dolor et eos labore, stet justo sed est sed. Disk sed sed dolor stet amém eimord eos labore diam.</p>
                       <div class="depointo-2">
-                          <img src="testimonial-4.jpg" alt="testemulha">
+                          <img src="img/depoimento/testimonial-4.jpg" alt="testemulha">
                           <ul>
                               <li>Nome Do Cliente</li>
                               <li>Profissão</li>
@@ -407,25 +411,25 @@
             <div class="contatos-item">
                 <h1 class="titulo-contatos">Empresa</h1>
                 <ul class="flex-contatos contatos-empresa">
-                    <li><img src="seta-direita.png" alt="seta-direita"> Sobre Nós</li>
-                    <li><img src="seta-direita.png" alt="seta-direita"> Contate-Nos</li>
-                    <li><img src="seta-direita.png" alt="seta-direita"> Reserva</li>
-                    <li><img src="seta-direita.png" alt="seta-direita"> politica De privacidade</li>
-                    <li><img src="seta-direita.png" alt="seta-direita"> Termos E Condições</li>
+                    <li><img src="img/contato/seta-direita.png" alt="seta-direita"> Sobre Nós</li>
+                    <li><img src="img/contato/seta-direita.png" alt="seta-direita"> Contate-Nos</li>
+                    <li><img src="img/contato/seta-direita.png" alt="seta-direita"> Reserva</li>
+                    <li><img src="img/contato/seta-direita.png" alt="seta-direita"> politica De privacidade</li>
+                    <li><img src="img/contato/seta-direita.png" alt="seta-direita"> Termos E Condições</li>
                 </ul>
             </div>
             <div class="contatos-item">
                 <h1 class="titulo-contatos2">Contato</h1>
                 <ul class="flex-contatos contatos-info">
-                    <li><img src="pin.png" alt="localizacao"> Rua 123, Nova York, EUA</li>
-                    <li><img src="telefone.png" alt="telefone"> +012 345 67890</li>
-                    <li><img src="e-mail.png" alt="email"> info@exemplo.com</li>
+                    <li><img src="img/contato/pin.png" alt="localizacao"> Rua 123, Nova York, EUA</li>
+                    <li><img src="img/contato/telefone.png" alt="telefone"> +012 345 67890</li>
+                    <li><img src="img/contato/e-mail.png" alt="email"> info@exemplo.com</li>
                 </ul>
                 <div class="rede-social">
-                    <img src="twitter.png" alt="twitter">
-                    <img src="facebook.png" alt="facebook">
-                    <img src="youtube.png" alt="youtube">
-                    <img src="linkedin.png" alt="linkedin">
+                    <img src="img/contato/twitter.png" alt="twitter">
+                    <img src="img/contato/facebook.png" alt="facebook">
+                    <img src="img/contato/youtube.png" alt="youtube">
+                    <img src="img/contato/linkedin.png" alt="linkedin">
                 </div>
             </div>
             <div class="contatos-item">
@@ -453,7 +457,7 @@
 
     <section class="modal-container" data-modal="container">
         <div class="modal">
-           <img src="botao-x.png" alt="multiplicar" class="img-modal">
+           <img src="img/modal/botao-x.png" alt="multiplicar" class="img-modal">
            <h1>OOPS!</h1>
            <p>Descupe mais no momento não temos mesas disponíveis</p>
            <a href="#" class="fechar" data-modal="fechar">Fechar</a>
@@ -465,33 +469,8 @@
 
 
     
-        
-
+    
+    <script type="module" src="script.js"></script>
    
-    
-    
-
-    
-
-   
-    
-   
-
-
-
-
-   
-
-   
-    
-    
-    <script src="script.js"></script>
-    <script>
-        initSlider({
-            autoPlay: true,
-            startAtIndex: 0,
-            timeInterval: 3000
-        })
-    </script>
 </body>
 </html>
