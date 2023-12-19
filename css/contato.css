@@ -88,7 +88,6 @@
     right: 7px;
     top: 24px;
 }
-
 .contatos-item > p {
     color: #F1F8FF;
     font-size: 1.125rem;
@@ -103,6 +102,7 @@
     margin-top: 10px;
     border: 1px solid #FEA116;
     border-radius: 5px;
+    text-transform: uppercase;
     outline: none;
 }
 
@@ -110,20 +110,17 @@
     background-color: #FEA116;
     border: none;
     color: white;
-    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    padding: 0.6rem 7rem;
+    display: block ;
     font-family: 'Nunito';
     text-transform: uppercase;
     border-radius: 5px;
     cursor: pointer;
-    margin: 8px 8px 0 0;
+    text-align: center;
+    margin: 12px 0px;
     font-size: 0.9375rem;
-    height: 40px;
-    vertical-align: middle;
-    position: absolute;
-    top: 132px;
-    bottom: 8px;
-    right: 0px;
-    left: 149.716px;
+    width: 100%;
+    max-width: 285px;
 }
 
 

@@ -1,7 +1,7 @@
 
    // MENU-MOBILE
   import menuMobile from './menu.js';
-  menuMobile()
+  menuMobile();
 
     // ANIMACAO AO SCROLL SERVICOS
  import animaScroll from './scroll.js';
@@ -10,22 +10,22 @@
 // ANIMACAO NUMEROS
 
 import animaNumeross from './animanumeros.js';
-animaNumeross()
+animaNumeross();
 
    // DROPDOW MENU
  
 import dropdown1 from './dropdown.js';
-dropdown1()
+dropdown1();
 
 // MODAL
 
 import modalJs from './modal.js';
-modalJs()
+modalJs();
 
    // SLIDE 
 
 import slideJs from './slide.js';
-slideJs()
+slideJs();
 
    
 

@@ -1,14 +1,14 @@
- @import url(./header.css);
- @import url(./main.css);
- @import url(./servico.css);
- @import url(./sobre.css);
- @import url(./cardapio.css);
- @import url(./reserva.css);
- @import url(./pagina.css);
- @import url(./depoimento.css);
- @import url(./contato.css);
- @import url(./modal.css);
- @import url(./fontes.css);
+ @import url(./css/header.css);
+ @import url(./css/main.css);
+ @import url(./css/servico.css);
+ @import url(./css/sobre.css);
+ @import url(./css/cardapio.css);
+ @import url(./css/reserva.css);
+ @import url(./css/pagina.css);
+ @import url(./css/depoimento.css);
+ @import url(./css/contato.css);
+ @import url(./css/modal.css);
+ @import url(./css/fontes.css);
  
  
 
