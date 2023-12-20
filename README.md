@@ -15,3 +15,7 @@ Restaurante tem um design de modelo de restaurante gratuito que é limpo e moder
 • JavaScript    
 
 
+## Autor
+
+•Frontend - @Arthursouzafut22
+
