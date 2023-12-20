@@ -9,9 +9,9 @@ Restaurante tem um design de modelo de restaurante gratuito que é limpo e moder
 
 
 ### Construído com 
-•Marcação semântica HTML5
-•Propriedades personalizadas CSS
-•Web design responsivo
-•JavaScript
+• Marcação semântica HTML5
+• Propriedades personalizadas CSS
+• Web design responsivo
+• JavaScript
 
 
