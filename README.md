@@ -8,6 +8,10 @@
 Restaurante tem um design de modelo de restaurante gratuito que é limpo e moderno. É especialmente projetado para restaurantes, cafés, cafeterias e qualquer site relacionado a catering. Este modelo de site de alimentos foi desenvolvido com as mais recentes tecnologias da web, como HTML5, CSS3 e Javascript.
 
 
-
+### Construído com 
+•Marcação semântica HTML5
+•Propriedades personalizadas CSS
+•Web design responsivo
+•JavaScript
 
 
