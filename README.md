@@ -19,3 +19,5 @@ Restaurante tem um design de modelo de restaurante  que é limpo e moderno. É e
 
 • Frontend - @Arthursouzafut22
 
+## Link site ativo: https://animated-yeot-333ca6.netlify.app/
+
